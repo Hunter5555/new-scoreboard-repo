@@ -36,6 +36,12 @@ function App() {
           <button onClick = {() => setHomeCount(homeCount + 3)}
           className='homeButtons_fieldGoal'>Home Field Goal</button>
           </div>
+          <div className="awayButtons">
+            <button onClick = {() => setAwayCount(awayCount + 7)}
+            className="awayButtons_touchdown">Away Touchdown</button>
+            <button onClick = {() => setAwayCount(awayCount +3)}
+            className="awayButtons_fieldGoal">Away Field Goal</button>
+          </div>
       </section>
     </div>
   );
